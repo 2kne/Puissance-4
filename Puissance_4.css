@@ -1,0 +1,87 @@
+span {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 0.1s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+
+
+/* Standard syntax */
+@keyframes example {
+  0%   {; left:400px; top:0px;}
+/*  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}*/
+  100% {; left:0px; top:0px;}
+}
+
+.container
+{
+  display: flex;
+  flex-direction: column;
+  margin-right: 350px;
+  margin-left: 350px;
+  align-items: center;
+}
+
+.button
+{
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between; 
+}
+
+.score
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.j1, .j2
+{
+  display: flex;
+  flex-direction: column;
+  border: solid 2px black;
+  border-radius: 6px;
+  background-color: grey;
+  margin: 10px;
+}
+
+#back
+{
+  width: 60px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: grey;
+  color: white;
+  border: solid 2px black;
+}
+
+#replay
+{
+  width: 100px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: grey;
+  color: white;
+  border: solid 2px black;
+}
+
+h1
+{
+  text-align: center;
+  margin: 50px;
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+body
+{
+  background-color: silver;
+}
